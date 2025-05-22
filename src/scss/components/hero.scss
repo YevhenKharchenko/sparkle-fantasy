@@ -1,0 +1,50 @@
+.hero-section {
+  padding-top: 124px;
+  padding-bottom: 555px;
+  background-image: url(../img/hero/hero-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: auto;
+  position: relative;
+  max-width: 375px;
+  margin: 0 auto;
+
+  @include media(desktop) {
+    padding-top: 70px;
+    padding-bottom: 576px;
+    background-image: url(../img/hero/hero-bg-desk.jpg);
+    background-position: top center;
+    max-width: 1440px;
+  }
+}
+
+.hero-title-img {
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+  }
+}
+
+.hero-bubbles-img {
+  position: absolute;
+  left: 20px;
+  bottom: 43px;
+
+  @include media(desktop) {
+    left: auto;
+    right: 80px;
+    bottom: 67px;
+  }
+}
+
+.hero-big-bubble-img {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    position: absolute;
+    left: 166px;
+    bottom: 62px;
+  }
+}
