@@ -1,5 +1,5 @@
 .footer {
-  background: #ffb84d;
+  background: #f9af3c;
   padding-top: 53px;
   padding-bottom: 41px;
 
@@ -32,14 +32,10 @@
 }
 
 .footer-link {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.5;
-  background: linear-gradient(180deg, #8d46e2 0%, #3c1f95 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-family: 'Cinzel Decorative', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #151836;
   transition: color 0.3s ease-in-out;
 
   &:hover,
@@ -52,14 +48,11 @@
 }
 
 .footer-text {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Crimson Text', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
-  background: linear-gradient(180deg, #8d46e2 0%, #3c1f95 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #151836;
 
   @include media(desktop) {
     text-align: center;

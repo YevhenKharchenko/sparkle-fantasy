@@ -1,6 +1,6 @@
 .hero-section {
-  padding-top: 124px;
-  padding-bottom: 555px;
+  padding-top: 142px;
+  padding-bottom: 491px;
   background-image: url(../img/hero/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: top center;
@@ -10,11 +10,19 @@
   margin: 0 auto;
 
   @include media(desktop) {
-    padding-top: 70px;
-    padding-bottom: 576px;
+    padding-top: 134px;
+    padding-bottom: 371px;
     background-image: url(../img/hero/hero-bg-desk.jpg);
     background-position: top center;
     max-width: 1440px;
+  }
+}
+
+.hero-container {
+  padding: 0;
+
+  @include media(desktop) {
+    padding: 0 80px;
   }
 }
 

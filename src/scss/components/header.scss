@@ -8,21 +8,21 @@
   z-index: 10;
 
   &.scrolled {
-    background: #7c3ed2;
+    background: #151836;
 
     .nav-list-link {
-      color: #fffafa;
+      color: #6ed3e6;
 
       &:hover,
       &.active {
-        color: #ffb84d;
+        color: #f9af3c;
       }
     }
   }
 
   @include media(desktop) {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 34px;
+    padding-bottom: 34px;
   }
 }
 
@@ -55,11 +55,11 @@
 }
 
 .nav-list-link {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
+  font-family: 'Crimson Text', sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
-  color: #fffafa;
+  color: #f9af3c;
   transition: all 0.3s ease-in-out;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .privacy-body .nav-list-link {
-  color: #fffafa;
+  color: #6ed3e6;
 }
 
 .privacy-body .menu-icon {
