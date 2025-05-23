@@ -1,19 +1,29 @@
 .gallery-section {
+  padding-bottom: 80px;
+
   @include media(desktop) {
+    padding-bottom: 140px;
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+}
+
+.gallery-title {
+  @include media(desktop) {
+    margin-bottom: 92px;
   }
 }
 
 .gallery-section-wrapper {
-  padding-bottom: 80px;
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
 
   @include media(desktop) {
-    padding-bottom: 140px;
     max-width: 1440px;
-    position: relative;
+    overflow: visible;
   }
 }
 
@@ -23,7 +33,7 @@
 }
 
 .gallery-swiper-container {
-  max-width: 305px;
+  max-width: 335px;
   margin-left: auto;
   margin-right: auto;
   visibility: hidden;
@@ -38,8 +48,18 @@
 }
 
 .gallery-slide {
-  padding: 0;
-  max-width: 305px;
+  transition: all 0.3s ease-in-out;
+
+  @include media(desktop) {
+    flex-shrink: 0;
+
+    &.swiper-slide-active {
+      margin-left: 75px !important;
+      margin-right: 80px !important;
+      transform: scale(1.45) !important;
+      z-index: 2;
+    }
+  }
 }
 
 .controls {
@@ -49,8 +69,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 28px;
-    gap: 12px;
+    margin-top: 82px;
+    gap: 20px;
   }
 }
 
@@ -80,57 +100,5 @@
     &:hover {
       transform: none;
     }
-  }
-}
-
-.dots {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.dot {
-  width: 16px;
-  height: 16px;
-  transition: transform 0.3s ease-in-out;
-  border-radius: 100%;
-  background: rgba(255, 184, 77, 0.5);
-  cursor: pointer;
-}
-
-.dot.active {
-  background: #ffb84d;
-}
-
-.gallery-big-bubble-img {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
-    position: absolute;
-    bottom: 12px;
-    right: 93px;
-  }
-}
-
-.gallery-medium-bubble-img {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
-    position: absolute;
-    bottom: 97px;
-    left: 190px;
-  }
-}
-
-.gallery-small-bubble-img {
-  display: none;
-
-  @include media(desktop) {
-    display: block;
-    position: absolute;
-    bottom: 97px;
-    left: 272px;
   }
 }
