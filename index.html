@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sparkle 2 is a magical orb-matching puzzle adventure. Explore a beautiful fantasy world, unlock enchantments, and battle the creeping darkness."
+    />
+    <meta
+      name="keywords"
+      content="Sparkle 2, orb matching game, fantasy puzzle, enchanted match 3, magic puzzle adventure, premium puzzle game, offline puzzle, match orbs, sparkle fantasy, enchanted forest puzzle"
+    />
+    <meta name="author" content="Sparkle Fantasy Game Team" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://sparklefantasygame.com" />
+    <link rel="icon" type="image/png" href="/sparkle-fantasy/favicon.png" />
+    <title>Sparkle 2</title>
+    
+    <script type="module" crossorigin src="/sparkle-fantasy/commonHelpers3.js"></script>
+    <link rel="modulepreload" crossorigin href="/sparkle-fantasy/assets/header-0c63ed65.js">
+    <link rel="modulepreload" crossorigin href="/sparkle-fantasy/assets/vendor-addafc6c.js">
+    <link rel="stylesheet" href="/sparkle-fantasy/assets/header-f50b35cc.css">
+    <link rel="stylesheet" href="/sparkle-fantasy/assets/vendor-fef9b9da.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#home">Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#story">Story</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#features">Features</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#enchantments"
+            >Enchantments</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#reviews">Reviews</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#gallery">Gallery</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#play">How to Play</a>
+        </li>
+      </ul>
+      <button class="nav-btn" type="button" aria-label="Open mobile menu">
+        <svg class="menu-icon" width="48" height="48">
+          <use href="/sparkle-fantasy/assets/sprite-a8956c4f.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+    <div class="context-menu">
+  <div class="context-container">
+    <div class="context-btn-wrapper">
+      <button class="close-btn" type="button" aria-label="Close mobile menu">
+        <svg class="close-icon" width="48" height="48">
+          <use href="/sparkle-fantasy/assets/sprite-a8956c4f.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+    <nav class="context-nav">
+      <ul class="context-nav-list">
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html">Home</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#story">Story</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#features">Features</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#enchantments"
+            >Enchantments</a
+          >
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#reviews">Reviews</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#gallery">Gallery</a>
+        </li>
+        <li class="context-list-item">
+          <a class="context-list-link" href="./index.html#play">How to Play</a>
+        </li>
+      </ul>
+    </nav>
+    <img
+      class="context-big-puzzle-img"
+      src="/sparkle-fantasy/assets/menu-orbs-e9aa220e.png"
+      alt="Bubbles"
+      width="198"
+      height="113"
+    />
+  </div>
+</div>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="container hero-container">
+    <picture>
+      <source
+        srcset="/sparkle-fantasy/assets/hero-title-desk-5115b1ab.png "
+        media="(min-width: 1440px)"
+        width="691"
+        height="455"
+      />
+      <source srcset="/sparkle-fantasy/assets/hero-title-mob-5134d6f9.png " width="375" height="247" />
+      <img
+        class="hero-title-img"
+        src="/sparkle-fantasy/assets/hero-title-mob-5134d6f9.png"
+        alt="Title"
+        width="375"
+        height="247"
+      />
+    </picture>
+  </div>
+</section>
+
+      <section class="section story-section" id="story">
+  <div class="story-bg-wrapper">
+    <h2 class="section-title story-title">Story</h2>
+    <div class="container story-container">
+      <picture>
+        <source
+          srcset="/sparkle-fantasy/assets/story-bg-desk-cc9ab71d.png "
+          media="(min-width: 1440px)"
+          width="629"
+          height="356"
+        />
+        <source
+          srcset="/sparkle-fantasy/assets/story-bg-mob-42afadcc.png "
+          width="375"
+          height="212"
+        />
+        <img
+          class="story-bg-img"
+          src="/sparkle-fantasy/assets/story-bg-mob-42afadcc.png"
+          alt="Screenshot of the game"
+          width="375"
+          height="212"
+          loading="lazy"
+        />
+      </picture>
+      <div class="story-content-wrapper">
+        <p class="story-text">
+          In a world consumed by shadow, a mysterious journey begins. You are
+          the chosen bearer of the enchanted orb slinger, destined to seek the
+          five lost keys of Sparkle. With every match, light returns to the
+          realm. Explore enchanted forests, forgotten temples, and lost ruins
+          in a beautifully immersive puzzle adventure.
+        </p>
+        <img
+          class="story-orbs-img"
+          src="/sparkle-fantasy/assets/story-orbs-e3f67406.png"
+          alt="Orbs"
+          width="298"
+          height="171"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section features-section" id="features">
+  <div class="features-bg-wrapper">
+    <h2 class="section-title features-title">Features</h2>
+    <div class="container features-container">
+      <picture>
+        <source
+          srcset="/sparkle-fantasy/assets/features-bg-desk-8be0e13a.png "
+          media="(min-width: 1440px)"
+          width="414"
+          height="276"
+        />
+        <source
+          srcset="/sparkle-fantasy/assets/features-bg-mob-e9eea1cb.png "
+          width="375"
+          height="250"
+        />
+        <img
+          class="features-bg-img"
+          src="/sparkle-fantasy/assets/features-bg-mob-e9eea1cb.png"
+          alt="Screenshot of the game"
+          width="375"
+          height="250"
+        />
+      </picture>
+      <div class="features-content-wrapper">
+        <div class="features-list">
+          <div class="features-list-item">
+            <img
+              class="features-img"
+              src="/sparkle-fantasy/assets/features-img1-acb05c7c.png"
+              alt="Features picture"
+              width="78"
+              height="78"
+              loading="lazy"
+            />
+            <div class="features-item-text-wrapper">
+              <p class="features-item-title">Orb-Matching Action</p>
+              <p class="features-item-text">
+                Match 3+ orbs to destroy dark chains of magic.
+              </p>
+            </div>
+          </div>
+          <div class="features-list-item">
+            <img
+              class="features-img"
+              src="/sparkle-fantasy/assets/features-img2-c7fc241b.png"
+              alt="Features picture"
+              width="78"
+              height="78"
+              loading="lazy"
+            />
+            <div class="features-item-text-wrapper">
+              <p class="features-item-title">Fantasy World</p>
+              <p class="features-item-text">
+                Journey through over 90 hand-crafted levels.
+              </p>
+            </div>
+          </div>
+          <div class="features-list-item">
+            <img
+              class="features-img"
+              src="/sparkle-fantasy/assets/features-img3-39d0f07b.png"
+              alt="Features picture"
+              width="78"
+              height="78"
+              loading="lazy"
+            />
+            <div class="features-item-text-wrapper">
+              <p class="features-item-title">Powerful Enchantments</p>
+              <p class="features-item-text">
+                Unlock magical upgrades and boosts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="features-list">
+          <div class="features-list-item">
+            <img
+              class="features-img"
+              src="/sparkle-fantasy/assets/features-img4-1384d457.png"
+              alt="Features picture"
+              width="78"
+              height="78"
+              loading="lazy"
+            />
+            <div class="features-item-text-wrapper">
+              <p class="features-item-title">Epic Soundtrack</p>
+              <p class="features-item-text">
+                Original orchestral music enhances the fantasy.
+              </p>
+            </div>
+          </div>
+          <div class="features-list-item">
+            <img
+              class="features-img"
+              src="/sparkle-fantasy/assets/features-img5-7a438bfc.png"
+              alt="Features picture"
+              width="78"
+              height="78"
+              loading="lazy"
+            />
+            <div class="features-item-text-wrapper">
+              <p class="features-item-title">Multiple Game Modes</p>
+              <p class="features-item-text">
+                Adventure, Survival, and Challenge.
+              </p>
+            </div>
+          </div>
+          <div class="features-list-item">
+            <img
+              class="features-img"
+              src="/sparkle-fantasy/assets/features-img6-9311ade1.png"
+              alt="Features picture"
+              width="78"
+              height="78"
+              loading="lazy"
+            />
+            <div class="features-item-text-wrapper">
+              <p class="features-item-title">No Ads, No Distractions</p>
+              <p class="features-item-text">A premium, immersive experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section enchantments-section" id="enchantments">
+  <div class="enchantments-bg-wrapper">
+    <h2 class="section-title enchantments-title">Enchantments</h2>
+    <div class="container enchantments-container">
+      <picture>
+        <source
+          srcset="/sparkle-fantasy/assets/enchantments-bg-desk-bee2f85d.png "
+          media="(min-width: 1440px)"
+          width="630"
+          height="356"
+        />
+        <source
+          srcset="/sparkle-fantasy/assets/enchantments-bg-mob-f8f47254.png "
+          width="375"
+          height="212"
+        />
+        <img
+          class="enchantments-bg-img"
+          src="/sparkle-fantasy/assets/enchantments-bg-mob-f8f47254.png"
+          alt="Screenshot of the game"
+          width="375"
+          height="212"
+          loading="lazy"
+        />
+      </picture>
+      <div class="enchantments-content-wrapper">
+        <p class="enchantments-text">
+          Discover and equip over 20 unique enchantments that alter your powers.
+          Freeze time, summon burning light, or explode darkness in style. Build
+          your strategy as the difficulty grows.
+        </p>
+        <img
+          class="enchantments-img"
+          src="/sparkle-fantasy/assets/enchantments-img-desk-cbcf1ed6.png"
+          alt="Enchantments picture"
+          width="461"
+          height="281"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section reviews-section" id="reviews">
+  <h2 class="section-title reviews-title">Reviews</h2>
+  <div class="reviews-section-wrapper">
+    <div class="container reviews-container">
+      <div class="reviews-swiper-container">
+        <ul class="swiper-wrapper reviews-swiper-wrapper">
+          <li class="swiper-slide reviews-slide">
+            <img
+              class="reviews-rating-img"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+              alt="Rating"
+              width="100"
+              height="16"
+              loading="lazy"
+            />
+            <p class="reviews-text">
+              "Immersive and magical — I lose track of time while playing. Pure
+              puzzle bliss!"
+            </p>
+            <div class="reviews-avatar-wrapper">
+              <img
+                class="reviews-avatar-img"
+                src="/sparkle-fantasy/assets/reviews-avatar-moon-4d07625d.png"
+                alt="Avatar"
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <h3 class="reviews-name">MoonlitMage:</h3>
+            </div>
+          </li>
+          <li class="swiper-slide reviews-slide">
+            <img
+              class="reviews-rating-img"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+              alt="Rating"
+              width="100"
+              height="16"
+              loading="lazy"
+            />
+            <p class="reviews-text">
+              "Gorgeous visuals and no ads? Finally, a game that respects the
+              player."
+            </p>
+            <div class="reviews-avatar-wrapper">
+              <img
+                class="reviews-avatar-img"
+                src="/sparkle-fantasy/assets/reviews-avatar-twilight-aaa28758.png"
+                alt="Avatar"
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <h3 class="reviews-name">TwilightFlicker:</h3>
+            </div>
+          </li>
+          <li class="swiper-slide reviews-slide">
+            <img
+              class="reviews-rating-img"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+              alt="Rating"
+              width="100"
+              height="16"
+              loading="lazy"
+            />
+            <p class="reviews-text">
+              "Feels like playing inside a fantasy novel. A must for any puzzle
+              fan."
+            </p>
+            <div class="reviews-avatar-wrapper">
+              <img
+                class="reviews-avatar-img"
+                src="/sparkle-fantasy/assets/reviews-avatar-arcane-a43d7020.png"
+                alt="Avatar"
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <h3 class="reviews-name">ArcaneSeeker:</h3>
+            </div>
+          </li>
+          <li class="swiper-slide reviews-slide">
+            <img
+              class="reviews-rating-img"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+              alt="Rating"
+              width="100"
+              height="16"
+              loading="lazy"
+            />
+            <p class="reviews-text">
+              "The enchantments add real strategy. It’s more than just a match
+              game!"
+            </p>
+            <div class="reviews-avatar-wrapper">
+              <img
+                class="reviews-avatar-img"
+                src="/sparkle-fantasy/assets/reviews-avatar-echo-f460f017.png"
+                alt="Avatar"
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <h3 class="reviews-name">EchoWarden:</h3>
+            </div>
+          </li>
+          <li class="swiper-slide reviews-slide">
+            <img
+              class="reviews-rating-img"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+              alt="Rating"
+              width="100"
+              height="16"
+              loading="lazy"
+            />
+            <p class="reviews-text">
+              "Absolutely stunning! The music, visuals, and gameplay are all
+              top-tier."
+            </p>
+            <div class="reviews-avatar-wrapper">
+              <img
+                class="reviews-avatar-img"
+                src="/sparkle-fantasy/assets/reviews-avatar-raven-b9464662.png"
+                alt="Avatar"
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <h3 class="reviews-name">RavenWhisper:</h3>
+            </div>
+          </li>
+          <li class="swiper-slide reviews-slide">
+            <img
+              class="reviews-rating-img"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJ6SURBVHgB7VdLbuJAEH2NvUAgJG4wcILxDQIbELvhBDEnGHKCkBMMNxjnBJ4dAhYkJwg5QXyEjARsAHtedTCyPTEficVomieVKLqL58Llel0GDiCa1RxaDReEyZyTycQZjUa1QzEFHN71aS9MrIpLwWROwLcs68X3/Wr+ZXPARFx+1Gjy4z4uAJM52R1uzFkqlXI58zukgPuE/x2XgMmc0JxPYkqpXE6VXdAtauMWIYZIJ9nHBo+qGbzjTJjMKfJUqVRuwzAcshDNzWYDytaMW/3lcvnY7XZTnEofXBarF+l2iu0QhGBOe5XEmWSAv/+YsZxyaPOG3yf4arutp1ar1RSH8iUFaYjPIr1HUTRnwV75ObT1DyK4OB3VHVmDf0aIg09izObEntPDRwF/sxt+xQHb7bZXKBQcumJfJJ7fGyzOTEsWn5RBSjdPQYgHPiGDvG2TOcfj8YA3VzjnLEQzK0sxRM7K5bIU1mF3PLTb7YFKJOYysZ84LaEeE/KOhZnMSelyKV3C+WlRksWg9Shnnqzvpyx9EV7s2IUYc3dKQqZzdjodT6SJrsMb/y27v1tzeHbcxcUQZMfeAMdg4Q3nITga8Z9zUr6C7AaLpdfYRSlOOxPn4Bi2qOM8GMtp27acDVgsFvPpdNqgr88q6ZxisThfr9fipzjTHWLhJsMpuhekVhS+4hwYzEk50pyUJ5/FiA9vGYvfWIwfMvJyukpxpgsSobpPhpMEra5ugrr24+TUCU/SlfMjXKmYU09RPNzrnKTq4tOkY2Q/xZmWrJAvPMAzbZh8K5URj5OIB5w1s185+QLJm/68Wq2GySlLxltOYR67w8UV/zb+AJAj4XTs3zIYAAAAAElFTkSuQmCC"
+              alt="Rating"
+              width="100"
+              height="16"
+              loading="lazy"
+            />
+            <p class="reviews-text">
+              "Very polished. I keep coming back to beat my high scores."
+            </p>
+            <div class="reviews-avatar-wrapper">
+              <img
+                class="reviews-avatar-img"
+                src="/sparkle-fantasy/assets/reviews-avatar-golem-64c02138.png"
+                alt="Avatar"
+                width="72"
+                height="72"
+                loading="lazy"
+              />
+              <h3 class="reviews-name">GolemCrusher87:</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <ul class="reviews-list-desk">
+        <li class="reviews-list-item-desk">
+          <img
+            class="reviews-rating-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+            alt="Rating"
+            width="100"
+            height="16"
+            loading="lazy"
+          />
+          <p class="reviews-text">
+            "Immersive and magical — I lose track of time while playing. Pure
+            puzzle bliss!"
+          </p>
+          <div class="reviews-avatar-wrapper">
+            <img
+              class="reviews-avatar-img"
+              src="/sparkle-fantasy/assets/reviews-avatar-moon-4d07625d.png"
+              alt="Avatar"
+              width="72"
+              height="72"
+              loading="lazy"
+            />
+            <h3 class="reviews-name">MoonlitMage:</h3>
+          </div>
+        </li>
+        <li class="reviews-list-item-desk">
+          <img
+            class="reviews-rating-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+            alt="Rating"
+            width="100"
+            height="16"
+            loading="lazy"
+          />
+          <p class="reviews-text">
+            "Gorgeous visuals and no ads? Finally, a game that respects the
+            player."
+          </p>
+          <div class="reviews-avatar-wrapper">
+            <img
+              class="reviews-avatar-img"
+              src="/sparkle-fantasy/assets/reviews-avatar-twilight-aaa28758.png"
+              alt="Avatar"
+              width="72"
+              height="72"
+              loading="lazy"
+            />
+            <h3 class="reviews-name">TwilightFlicker:</h3>
+          </div>
+        </li>
+        <li class="reviews-list-item-desk">
+          <img
+            class="reviews-rating-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+            alt="Rating"
+            width="100"
+            height="16"
+            loading="lazy"
+          />
+          <p class="reviews-text">
+            "Feels like playing inside a fantasy novel. A must for any puzzle
+            fan."
+          </p>
+          <div class="reviews-avatar-wrapper">
+            <img
+              class="reviews-avatar-img"
+              src="/sparkle-fantasy/assets/reviews-avatar-arcane-a43d7020.png"
+              alt="Avatar"
+              width="72"
+              height="72"
+              loading="lazy"
+            />
+            <h3 class="reviews-name">ArcaneSeeker:</h3>
+          </div>
+        </li>
+        <li class="reviews-list-item-desk">
+          <img
+            class="reviews-rating-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+            alt="Rating"
+            width="100"
+            height="16"
+            loading="lazy"
+          />
+          <p class="reviews-text">
+            "The enchantments add real strategy. It’s more than just a match
+            game!"
+          </p>
+          <div class="reviews-avatar-wrapper">
+            <img
+              class="reviews-avatar-img"
+              src="/sparkle-fantasy/assets/reviews-avatar-echo-f460f017.png"
+              alt="Avatar"
+              width="72"
+              height="72"
+              loading="lazy"
+            />
+            <h3 class="reviews-name">EchoWarden:</h3>
+          </div>
+        </li>
+        <li class="reviews-list-item-desk">
+          <img
+            class="reviews-rating-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+            alt="Rating"
+            width="100"
+            height="16"
+            loading="lazy"
+          />
+          <p class="reviews-text">
+            "Absolutely stunning! The music, visuals, and gameplay are all
+            top-tier."
+          </p>
+          <div class="reviews-avatar-wrapper">
+            <img
+              class="reviews-avatar-img"
+              src="/sparkle-fantasy/assets/reviews-avatar-raven-b9464662.png"
+              alt="Avatar"
+              width="72"
+              height="72"
+              loading="lazy"
+            />
+            <h3 class="reviews-name">RavenWhisper:</h3>
+          </div>
+        </li>
+        <li class="reviews-list-item-desk">
+          <img
+            class="reviews-rating-img"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAQCAYAAADgUdqDAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFMSURBVHgB7ZftTcMwEIZfJxmgIyQT0AkoTEKYgDIBsEE3oEyAmKAwATABHoEBIOG1VaImSv0lq7/ukU6xbN+TSCcnF8BBv6uXjBoZEafbWcC9+sx4p2SBXIjT6TxaECa1vNQMk7xGBsTpdx4/IQXuDsY3yIE4vU41nbDHqcIVOmwmwjV+8KQu9TciEWe4U9mPTMnq9fY4/YcLI/hgfJqbUKhnHkKcic7KJvRoEY55B17YKLHjVc/sEWeis2CVX1mZB8TCHHWuX+aWxJnuHL4htgso8BiYfM0bb33bxBnvHLosO8GFgOTbkAcSZ5pz2vZq+CjxhTi0d4c4B6YFWcLHLxrEIc4I57ggJVaT7aYl06MZhTPEIM4o57ggPRZDoukUOjRqpZt916D3An/VxZnsrEaCjj8nwBtjc/gHyfE9u4Ythy1iEWdep3Ba/gDkdnaAX7bWBwAAAABJRU5ErkJggg=="
+            alt="Rating"
+            width="100"
+            height="16"
+            loading="lazy"
+          />
+          <p class="reviews-text">
+            "Very polished. I keep coming back to beat my high scores."
+          </p>
+          <div class="reviews-avatar-wrapper">
+            <img
+              class="reviews-avatar-img"
+              src="/sparkle-fantasy/assets/reviews-avatar-golem-64c02138.png"
+              alt="Avatar"
+              width="72"
+              height="72"
+              loading="lazy"
+            />
+            <h3 class="reviews-name">GolemCrusher87:</h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section gallery-section" id="gallery">
+  <h2 class="section-title gallery-title">Gallery</h2>
+  <div class="gallery-section-wrapper">
+    <div class="container gallery-container">
+      <div class="gallery-swiper-container">
+        <ul class="swiper-wrapper gallery-swiper-wrapper">
+          <li class="swiper-slide gallery-slide">
+            <picture>
+              <source
+                srcset="/sparkle-fantasy/assets/gallery-img1-desk-a98791cc.png "
+                media="(min-width: 1440px)"
+                width="439"
+                height="247"
+              />
+              <source
+                srcset="/sparkle-fantasy/assets/gallery-img1-mob-8e7b596f.png "
+                width="335"
+                height="188"
+              />
+              <img
+                src="/sparkle-fantasy/assets/gallery-img1-mob-8e7b596f.png"
+                alt="Screenshot of the game"
+                width="335"
+                height="188"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide gallery-slide">
+            <picture>
+              <source
+                srcset="/sparkle-fantasy/assets/gallery-img2-desk-117bd040.png "
+                media="(min-width: 1440px)"
+                width="439"
+                height="247"
+              />
+              <source
+                srcset="/sparkle-fantasy/assets/gallery-img2-mob-0ef3a390.png "
+                width="335"
+                height="188"
+              />
+              <img
+                src="/sparkle-fantasy/assets/gallery-img2-mob-0ef3a390.png"
+                alt="Screenshot of the game"
+                width="335"
+                height="188"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide gallery-slide">
+            <picture>
+              <source
+                srcset="/sparkle-fantasy/assets/gallery-img3-desk-1415f09e.png "
+                media="(min-width: 1440px)"
+                width="439"
+                height="247"
+              />
+              <source
+                srcset="/sparkle-fantasy/assets/gallery-img3-mob-6ff3c258.png "
+                width="335"
+                height="188"
+              />
+              <img
+                src="/sparkle-fantasy/assets/gallery-img3-mob-6ff3c258.png"
+                alt="Screenshot of the game"
+                width="335"
+                height="188"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+          <li class="swiper-slide gallery-slide">
+            <picture>
+              <source
+                srcset="/sparkle-fantasy/assets/gallery-img4-desk-515cecf4.png "
+                media="(min-width: 1440px)"
+                width="439"
+                height="247"
+              />
+              <source
+                srcset="/sparkle-fantasy/assets/gallery-img4-mob-6efe134f.png "
+                width="335"
+                height="188"
+              />
+              <img
+                src="/sparkle-fantasy/assets/gallery-img4-mob-6efe134f.png"
+                alt="Screenshot of the game"
+                width="335"
+                height="188"
+                loading="lazy"
+              />
+            </picture>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="controls gallery-controls">
+      <button
+        class="arrow-btn"
+        id="galleryLeftArrow"
+        aria-label="Previous slide"
+      >
+        <svg class="arrow-icon" width="42" height="42">
+          <use href="/sparkle-fantasy/assets/sprite-a8956c4f.svg#icon-arrow-left"></use>
+        </svg>
+      </button>
+      <button class="arrow-btn" id="galleryRightArrow" aria-label="Next slide">
+        <svg class="arrow-icon" width="42" height="42">
+          <use href="/sparkle-fantasy/assets/sprite-a8956c4f.svg#icon-arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+      <section class="section play-section" id="play">
+  <div class="play-bg-wrapper">
+    <h2 class="section-title play-title">How to Play</h2>
+    <div class="container play-container">
+      <div class="play-content-wrapper">
+        <ul class="play-list">
+          <li class="play-list-item">
+            <img
+              class="play-img"
+              src="/sparkle-fantasy/assets/play-img1-0bf82e41.png"
+              alt="Screenshot of the game"
+              width="305"
+              height="188"
+              loading="lazy"
+            />
+            <p class="play-item-text">
+              Use your orb slinger to launch matching colors.
+            </p>
+          </li>
+          <li class="play-list-item">
+            <img
+              class="play-img"
+              src="/sparkle-fantasy/assets/play-img2-8acdd150.png"
+              alt="Screenshot of the game"
+              width="305"
+              height="188"
+              loading="lazy"
+            />
+            <p class="play-item-text">
+              Match 3+ orbs to destroy the chain before it reaches the abyss.
+            </p>
+          </li>
+          <li class="play-list-item">
+            <img
+              class="play-img"
+              src="/sparkle-fantasy/assets/play-img3-a2379090.png"
+              alt="Screenshot of the game"
+              width="305"
+              height="188"
+              loading="lazy"
+            />
+            <p class="play-item-text">
+              Unlock and apply enchantments to gain the upper hand.
+            </p>
+          </li>
+          <li class="play-list-item">
+            <img
+              class="play-img"
+              src="/sparkle-fantasy/assets/play-img4-33ff0dd4.png"
+              alt="Screenshot of the game"
+              width="305"
+              height="188"
+              loading="lazy"
+            />
+            <p class="play-item-text">
+              Complete levels, earn stars, and unlock new challenges.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer-container">
+    <nav class="footer-nav">
+      <ul class="footer-list">
+        <li class="footer-list-item">
+          <a class="footer-link" href="./privacy-policy.html">Privacy Policy</a>
+        </li>
+        <li class="footer-list-item">
+          <a class="footer-link" href="./terms-and-conditions.html"
+            >Terms and Conditions</a
+          >
+        </li>
+        <li class="footer-list-item">
+          <a class="footer-link" href="./cookies-policy.html">Cookies Policy</a>
+        </li>
+      </ul>
+    </nav>
+    <p class="footer-text">
+      © 2025 sparklefantasygame.com. All rights reserved
+    </p>
+  </div>
+</footer>
+
+    <section id="cookie-banner" class="cookie-banner-section">
+  <p class="cookie-banner-text">
+    We use cookies to improve your experience on our website. By browsing this
+    website, you agree to our use of cookies
+  </p>
+  <div class="cookie-banner-buttons">
+    <button class="cookie-accept-btn" id="cookie-accept">Accept Cookies</button>
+    <button class="cookie-decline-btn" id="cookie-decline">
+      Decline Cookies
+    </button>
+  </div>
+</section>
+
+
+    
+  </body>
+</html>
